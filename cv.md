@@ -38,7 +38,7 @@ for (let i = 1; i < value; i++) {
   sum += i;
 }
 console.log(sum);
-
+```
 ### Work experience:
 
 Since 2012 I have been working as an assistant to a sole trader. The scope of my work includes the organization of procurement of goods in the Republic of Turkey - Istanbul, with the purpose of subsequent implementation. Seller-consultant.

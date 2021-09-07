@@ -12,3 +12,12 @@
 
 ---
 
+### Target:
+
+> - To learn a profession `JS/FRONT-END -developer`.
+>   > ### Personal qualities:
+>   >
+>   > - Responsibility
+>   > - Quick learning ability
+>   > - Desire for professional growth
+>   > - Motivation

@@ -1,0 +1,37 @@
+html {
+  box-sizing: border-box;
+  padding: 20px 0;
+  background-color: blanchedalmond;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.header,
+.aside,
+.main,
+.footer {
+  width: 90%;
+  margin: auto;
+}
+
+header {
+  background-color: khaki;
+}
+
+aside {
+  background-color: lightsalmon;
+}
+
+main {
+  background-color: firebrick;
+}
+
+footer {
+  background-color: rgb(179, 126, 62);
+}

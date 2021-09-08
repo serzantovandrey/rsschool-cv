@@ -1,0 +1,164 @@
+html {
+  box-sizing: border-box;
+  font-family: arial;
+  letter-spacing: 2px;
+  background-color: rgb(228, 228, 228);
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.header,
+.main,
+.footer {
+  width: 80%;
+  margin: auto;
+}
+
+.header .block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+.header .block img {
+  width: 350px;
+  margin-right: 55px;
+}
+
+.header .block h1 {
+  font-size: 48px;
+  margin-left: 55px;
+}
+
+.header ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+
+.header ul li {
+  list-style: none;
+}
+
+.header ul li a {
+  text-decoration: none;
+}
+
+.header ul li a:hover {
+  text-decoration: underline;
+}
+
+.main .contacts,
+.main .target,
+.main .skills,
+.main .code,
+.main .work,
+.main .education,
+.main .addit-aducation,
+.main .english {
+  padding: 25px 55px 25px;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 2px solid rgb(228, 228, 228);
+}
+
+.main h3 {
+  font-size: 32px;
+  padding-bottom: 25px;
+}
+
+.main h4 {
+  font-size: 26px;
+  padding-bottom: 15px;
+}
+
+.main ul li {
+  margin-left: 55px;
+}
+
+.main .target p {
+  margin: 0 0 15px 45px;
+}
+
+.main .target p span {
+  color: #fff;
+  background-color: grey;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.main .skills p span {
+  color: #fff;
+  background-color: grey;
+  padding: 2px 12px;
+  border-radius: 10px;
+}
+
+.main .skills ul li {
+  margin: 8px 55px;
+}
+
+.main .target .item {
+  margin-left: 45px;
+}
+
+.main .code p {
+  display: inline-block;
+  color: #fff;
+  padding: 8px;
+  border-radius: 10px;
+  background-color: grey;
+  margin-left: 55px;
+}
+
+.main .work p:nth-child(2) {
+  margin-bottom: 20px;
+}
+
+.main .work p {
+  border-left: 2px solid rgb(228, 228, 228);
+  border-bottom: 2px solid rgb(228, 228, 228);
+  margin-left: 15px;
+  padding: 0 0 10px 10px;
+}
+
+.main .education ul li:nth-child(1) {
+  margin-bottom: 10px;
+}
+
+.main .english p {
+  margin-left: 55px;
+}
+
+.footer {
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 10px 0;
+}
+
+.footer ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer ul li {
+  list-style: none;
+  font-size: 24px;
+  text-align: center;
+}
+
+.footer ul li a {
+  text-decoration: none;
+}
+
+.footer ul li img {
+  width: 40%;
+}

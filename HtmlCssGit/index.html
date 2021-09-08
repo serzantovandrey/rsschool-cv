@@ -10,19 +10,22 @@
 <body>
 
     <header class="header">
-        <img src="images/3.jpg" alt="Андрей">
+        <div class="block">
+            <h1>Сержантов Андрей</h1>
+            <img src="images/3.jpg" alt="Андрей">
+        </div>
         <ul>
-            <li><a href="">Contacts</a></li>
-            <li><a href="">Target</a></li>
-            <li><a href="">Skills</a></li>
-            <li><a href="">Code example</a></li>
-            <li><a href="">Work experience</a></li>
-            <li><a href="">Education</a></li>
-            <li><a href="">Additional education</a></li>
-            <li><a href="">English Language</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+            <li><a href="#target">Target</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#code">Code example</a></li>
+            <li><a href="#work">Work experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#addit-aducation">Additional education</a></li>
+            <li><a href="#english">English Language</a></li>
         </ul>
     </header>
-    <aside class="aside">
+    <!--<aside class="aside">
         <ul>
             <li><a href="">Contacts</a></li>
             <li><a href="">Target</a></li>
@@ -33,21 +36,21 @@
             <li><a href="">Additional education</a></li>
             <li><a href="">English Language</a></li>
         </ul>
-    </aside>
+    </aside>-->
     <main class="main">
-        <section class="contacts">
-            <h3>Contacts for contact</h3>
+        <section id="contacts" class="contacts">
+            <h3>Contacts:</h3>
             <ul>
-                <li><a href="tel:+375296082077">+375296082077</a></li>
+                <li><a href="tel:+375296082077"> +375296082077</a></li>
                 <li><a href="https://t.me/andrey_serh">Telegram</a></li>
                 <li><a href="mailto:andrey.serzantau@gmail.com">andrey.serzantau@gmail.com</a></li>
             </ul>
         </section>
 
-        <section class="target">
+        <section id="target" class="target">
             <h3>Target</h3>
             <div class="box">
-                <p>To learn a profession JS/FRONT-END -developer</p>
+                <p>To learn a profession <span>JS/FRONT-END -developer</span></p>
                 <div class="item">
                     <h3>Personal qualities:</h3>
                     <ul>
@@ -60,71 +63,25 @@
             </div>
         </section>
 
-        <section class="skills">
+        <section id="skills" class="skills">
             <h3>Skills</h3>
             <ul>
                 <li>
-                    <p>Proficiency in web-page markup language - HTML;</p>
+                    <p>Proficiency in web-page markup language - <span>HTML</span>;</p>
                 </li>
                 <li>
-                    <p>Knowledge of the language used to convert web-pages - CSS;</p>
+                    <p>Knowledge of the language used to convert web-pages - <span>CSS</span>;</p>
                 </li>
                 <li>
-                    <p>Beginning knowledge of a programming language - JavaScript;</p>
+                    <p>Beginning knowledge of a programming language - <span>JavaScript</span>;</p>
                 </li>
                 <li>
-                    <p>Beginning knowledge of a version control tool - Git & GitHub;</p>
+                    <p>Beginning knowledge of a version control tool - <span>Git & GitHub</span>;</p>
                 </li>
             </ul>
         </section>
 
-        <section class="code">
-            <h3>Code examples:</h3>
-            <pre>
-                let value = prompt("", 8);
-                let sum = 0;
-                    for (let i = 1; i < value; i++) {
-                        sum += i;
-                    }
-                console.log(sum);
-            </pre>
-        </section>
-
-        <section class="work">
-            <h3>Work experience:</h3>
-            <p>Since 2012 I have been working as an assistant to a sole trader. The scope of my work includes the organization of procurement of goods in the Republic of Turkey - Istanbul, with the purpose of subsequent implementation. Seller-consultant.</p>
-            <p>From 2008 to 2012. Worked as a cameraman at the Directorate of Information Broadcasting at the Belarusian TV channel. He was engaged in the shooting of television items of informational and artistic orientation. Covered events in more than 15 countries while on business trips.</p>
-        </section>
-
-        <section class="education">
-            <h3>Education</h3>
-            <ul>
-                <li>Higher education (Belarusian State Academy of Arts2004 – 2008гг.)</li>
-                <li>Secondary education (Minsk State College of Technology2000 – 2004гг.)</li>
-            </ul>
-        </section>
-
-        <section class="addit-aducation">
-            <h4>Additional education</h4>
-            <ul>
-                <li> в 2020г. Graduated from the My IT School programming course in Front-end Development</li>
-            </ul>
-        </section>
-
-        <section class="english">
-            <h3>English Language:</h3>
-            <p>English language skills at a basic level (A2).</p>
-        </section>
         
-    </main>
-    <footer class="footer">
-        <ul>
-            <li><a href="https://github.com/serzantovandrey">My GitHub</a></li>
-            <li><span>2021</span></li>
-            <li><img src="https://rs.school/images/rs_school_js.svg" alt="logo"></li>
-            <li><a href="https://rs.school/js/">Courses</a></li>
-        </ul>
-    </footer>
     
 </body>
 </html>

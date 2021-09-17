@@ -1,0 +1,149 @@
+@media (max-width: 1200px) {
+  .header,
+  .main,
+  .footer {
+    width: 90%;
+  }
+
+  .header {
+    border-bottom: 2px solid rgb(228, 228, 228);
+  }
+
+  .header .block {
+    flex-direction: column-reverse;
+  }
+
+  .header nav {
+    display: none;
+  }
+
+  .burger-menu,
+  input[type="checkbox"] {
+    visibility: visible;
+  }
+
+  .burger-menu,
+  input[type="checkbox"] {
+    right: 40px;
+  }
+
+  .aside {
+    width: 20%;
+  }
+
+  .aside nav {
+    width: 200px;
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 1016px) {
+  .main .contacts,
+  .main .target,
+  .main .skills,
+  .main .code,
+  .main .work,
+  .main .education,
+  .main .addit-aducation,
+  .main .english {
+    padding: 65px 25px 65px;
+  }
+
+  .main .skills ul li {
+    line-height: 25px;
+  }
+}
+
+@media (max-width: 770px) {
+  .burger-menu,
+  input[type="checkbox"] {
+    width: 25px;
+    height: 25px;
+  }
+
+  .burger-menu div {
+    height: 4px;
+  }
+
+  .burger-menu div:nth-child(1) {
+    top: calc(50% - 2px);
+  }
+
+  .box p {
+    line-height: 30px;
+  }
+
+  .footer ul li {
+    font-size: 14px;
+  }
+
+  .footer ul li img {
+    width: 20%;
+  }
+}
+
+@media (max-width: 610px) {
+  .header .block h1 {
+    font-size: 34px;
+  }
+
+  .main h3 {
+    font-size: 28px;
+  }
+
+  .main .contacts,
+  .main .target,
+  .main .skills,
+  .main .code,
+  .main .work,
+  .main .education,
+  .main .addit-aducation,
+  .main .english {
+    padding: 65px 10px 65px;
+  }
+}
+
+@media (max-width: 470px) {
+  .header .block h1 {
+    font-size: 28px;
+  }
+
+  .header .block img {
+    width: 250px;
+  }
+}
+
+@media (max-width: 390px) {
+  .header .block h1 {
+    font-size: 28px;
+  }
+
+  .header .block img {
+    width: 250px;
+  }
+
+  .contacts ul {
+    margin-left: -25px;
+  }
+
+  .skills ul {
+    margin-left: -25px;
+  }
+
+  .education ul {
+    margin-left: -25px;
+  }
+
+  .addit-aducation ul {
+    margin-left: -25px;
+  }
+}
+
+@media (max-width: 380px) {
+  .header .block h1 {
+    font-size: 24px;
+  }
+  .contacts ul {
+    margin-left: -40px;
+  }
+}
